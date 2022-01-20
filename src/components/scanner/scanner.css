@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;500;700&display=swap");
+.scanner-bride-name {
+  font-family: "Great Vibes", cursive;
+  font-weight: lighter;
+  font-size: 4rem;
+  color: #eeeeee;
+  margin: 0;
+}
+
+.scanner-greeting {
+  font-family: "Libre Caslon Text", serif;
+  /* font-weight: 500; */
+  font-size: 1.5rem;
+  color: #eeeeee;
+  margin: 0;
+  /* margin-top: 2rem; */
+}
+
+.scanner-greeting-place {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  color: #eeeeee;
+  margin: 0;
+  /* margin-top: 2rem; */
+}
+
+.scanner-greeting-remarks {
+  font-family: "Libre Caslon Text", serif;
+  /* font-weight: 500; */
+  font-size: 1.5rem;
+  color: #77572a;
+  margin: 0;
+  margin-top: 2rem;
+}
+
+.scanner-greeting-name {
+  font-family: "Libre Caslon Text", serif;
+  /* font-weight: 500; */
+  font-size: 2rem;
+  color: #a7752e;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.scanner-greeting-time {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  color: #a7752e;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.scanner-title {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 4rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.scanner-title-as {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 4rem;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0;
+}
+
+.scanner-title-name {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.scanner-credit {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+.scanner-right-title {
+  /* font-family: "Libre Caslon Text", serif; */
+  font-size: 1.2rem;
+  /* font-weight: normal; */
+  color: #a7752e;
+  margin: 0;
+  text-align: center;
+}

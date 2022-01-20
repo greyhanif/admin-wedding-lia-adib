@@ -1,0 +1,181 @@
+@page {
+  size: A4;
+  margin: 4mm;
+}
+@media screen, print {
+  /* html, */
+  .body-pass {
+    width: 210mm;
+    height: 297mm;
+    margin-top: 2.5mm;
+    margin-left: 5mm;
+    margin-right: 2.5mm;
+    -webkit-print-color-adjust: exact;
+    /* display: none; */
+  }
+  /* ... the rest of the rules ... */
+
+  #grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .container-pass {
+    margin-left: 1mm;
+    margin-top: 2.5mm;
+    text-align: center;
+  }
+
+  .bride-pass {
+    font-family: "Great Vibes", cursive;
+    font-size: 6mm;
+    color: #6b0f10;
+    margin: 0;
+  }
+  .wedding-pass {
+    font-size: 3mm;
+    margin: 0;
+    font-family: SF Pro Mono;
+  }
+
+  .name-pass {
+    font-family: Roboto;
+    /* color: #422004; */
+    font-size: 4mm;
+    font-weight: 500;
+    margin-top: 2mm;
+    line-height: 1rem;
+  }
+
+  .city-pass {
+    font-family: Roboto;
+    /* color: #422004; */
+    font-size: 3.5mm;
+    font-weight: 300;
+    margin-top: 2mm;
+    margin-bottom: 0mm;
+  }
+
+  .title-name-pass {
+    font-family: Roboto;
+    color: #535353;
+    font-size: 1.5mm;
+    font-weight: 100;
+  }
+
+  .top-border-pass {
+    background-color: #6b0f10;
+  }
+
+  .card-pass {
+    /* width: 85.6mm;
+    height: 53.98mm; */
+    height: 90mm;
+    width: 60mm;
+    /* border-radius: 2mm; */
+    /* background-color: #fcf7f1; */
+    background-image: url("bg-cover.png");
+    background-size: cover;
+  }
+
+  .qr-pass {
+    width: 34mm;
+    margin-top: 2mm;
+    margin-left: 4.7mm;
+  }
+
+  .padding-view {
+    padding: 0.2rem;
+  }
+
+  .title-card-pass {
+    margin-top: 2mm;
+    /* margin-left: 5mm; */
+  }
+
+  .pass-card {
+    font-weight: bold;
+    font-size: 4.5mm;
+    background-color: #6b0f10;
+    color: #fcf7f1;
+    text-align: center;
+    height: 8.8mm;
+    /* border-top-left-radius: 2mm; */
+    /* border-top-right-radius: 2mm; */
+    padding: 1.7mm;
+  }
+
+  .code-ticket-pass {
+    font-size: 4mm;
+    font-weight: 700;
+    margin-top: 1mm;
+  }
+
+  /* .wrapper-qr-pass {
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+  } */
+
+  .code-pass {
+    font-family: FXMatrix105MonoPica;
+    font-size: 3.3mm !important;
+  }
+
+  .code-on-ticket-pass {
+    font-family: FXMatrix105MonoPica;
+    font-size: 1.4mm !important;
+    /* position: static; */
+    /* transform: rotate(90deg); */
+    margin-top: 1.5mm;
+    /* margin-left: 5mm; */
+    top: 2mm;
+    right: 5mm;
+    float: inherit;
+    text-align: center;
+    padding: 0.5mm;
+    /* width: 52mm; */
+    /* padding-top: 50mm; */
+  }
+
+  .line-pass {
+    /* border-style: dotted; */
+    border-width: 0.1mm;
+  }
+
+  .mt-2 {
+    margin-top: 1mm;
+  }
+  .size10 {
+    font-size: 1mm;
+  }
+  .bold {
+    font-weight: bold;
+  }
+
+  .corner-left-top-element {
+    width: 30mm;
+    height: 30mm;
+    position: absolute;
+    opacity: 40%;
+  }
+
+  .corner-righ-bottom-element {
+    width: 30mm;
+    height: 30mm;
+    /* position: absolute; */
+    opacity: 40%;
+    transform: rotate(180deg);
+    bottom: 0;
+    right: 0;
+  }
+  .darurat {
+    font-family: Roboto;
+    /* color: #422004; */
+    font-size: 3.5mm;
+    font-weight: 300;
+    margin-top: 1.5mm;
+    margin-bottom: 0mm;
+    line-height: 0.9rem;
+  }
+}

@@ -1,0 +1,18 @@
+@media screen, print {
+  /* @page {
+    size: A4;
+    margin: 4mm;
+
+    size: landscape;
+  }
+  .body-attendance {
+    width: 297mm;
+    height: 210mm;
+    margin-top: 5mm;
+    margin-left: 5mm;
+    margin-right: 5mm;
+    margin-bottom: 5mm;
+    -webkit-print-color-adjust: exact;
+
+  } */
+}

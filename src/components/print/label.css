@@ -1,0 +1,194 @@
+@page {
+  size: A4;
+  margin: 4mm;
+}
+@media screen, print {
+  .body-label-shipping {
+    width: 210mm;
+    height: 297mm;
+    margin-top: 2.5mm;
+    margin-left: 5mm;
+    margin-right: 2.5mm;
+    -webkit-print-color-adjust: exact;
+  }
+  /* ... the rest of the rules ... */
+
+  #grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .container-label {
+    /* margin-left: 1mm; */
+    /* margin-top: 2mm; */
+    padding: 2mm;
+    /* text-align: center; */
+  }
+
+  .list-contact-labe {
+    padding-right: 2.5mm;
+    padding-left: 2.5mm;
+  }
+
+  .bride-label {
+    font-family: "Great Vibes", cursive;
+    font-size: 3mm;
+    margin: 0;
+  }
+  .wedding-label {
+    font-size: 2mm;
+    margin: 0;
+    /* font-family: Roboto; */
+  }
+
+  .wrapper-header-label-shipping {
+    margin-bottom: 0.9mm;
+  }
+
+  .name-label {
+    /* font-family: SF Pro Text; */
+    /* color: #422004; */
+    font-size: 4mm;
+    font-weight: 500;
+  }
+
+  .title-name-label {
+    /* font-family: SF Pro Text; */
+    /* color: #535353; */
+    font-size: 1.5mm;
+    font-weight: 100;
+  }
+
+  .top-border-label {
+    background-color: yellow;
+  }
+
+  .card-label {
+    /* width: 85.6mm;
+    height: 53.98mm; */
+    /* height: 85.6mm;
+    width: 53.98mm; */
+    height: 128mm;
+    width: 66mm;
+    /* border-radius: 2mm; */
+    /* background-color: #fcf7f1; */
+    /* background-image: url("bg-cover.png"); */
+    background-size: cover;
+  }
+
+  .qr-label-shipping {
+    margin-right: 2mm;
+  }
+
+  .title-card-label {
+    margin-top: 2mm;
+    /* margin-left: 5mm; */
+  }
+
+  .pass-card-label {
+    font-weight: bold;
+    font-size: 4mm;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    height: 7mm;
+    border-top-left-radius: 2mm;
+    border-top-right-radius: 2mm;
+    padding: 1mm;
+  }
+
+  .code-ticket-label {
+    font-size: 1mm;
+    /* font-weight: bold; */
+    margin-top: 0mm;
+  }
+
+  .code-label {
+    font-family: FXMatrix105MonoPica;
+    font-size: 2mm !important;
+  }
+
+  .line-label {
+    /* border-style: dotted;
+    border-width: 0.1mm; */
+  }
+
+  .center-label {
+    text-align: center;
+  }
+
+  .mt-2-label {
+    margin-top: 0.1mm;
+  }
+
+  .ml-3-label {
+    margin-left: 2mm;
+  }
+  .size10-label {
+    font-size: 1mm;
+  }
+
+  .right-label {
+    text-align: end;
+    margin-right: 2mm;
+    margin-top: 0.5mm;
+    /* padding: 2mm; */
+
+    /* position: absolute; */
+  }
+  .bold {
+    font-weight: bold;
+  }
+
+  .corner-left-top-element-label-shipping {
+    width: 45mm;
+    height: 10mm;
+    /* margin-left: 2mm; */
+    /* padding-left: 2mm; */
+    position: absolute;
+    background-color: yellow;
+    /* opacity: 40%; */
+    text-align: center;
+    border-radius: 1mm;
+    /* padding-top: 0.8mm; */
+    /* padding-bottom: 1mm; */
+    padding: 0.25rem;
+  }
+
+  .corner-righ-bottom-element {
+    width: 30mm;
+    height: 30mm;
+    /* position: absolute; */
+    opacity: 40%;
+    transform: rotate(180deg);
+    bottom: 0;
+    right: 0;
+  }
+
+  .code-on-label-shipping {
+    font-family: FXMatrix105MonoPica;
+    color: gray;
+    font-size: 0.36rem;
+    margin-top: 0rem;
+    margin-left: 0.4rem;
+    text-align: center;
+  }
+  .barcode-label-shipping {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .label-desc-shipping-title {
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1rem;
+    margin: 0rem;
+  }
+  .label-desc-shipping {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1rem;
+    margin: 0rem;
+  }
+}
